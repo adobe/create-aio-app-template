@@ -1,0 +1,15 @@
+{
+  "name": "<%=projectName%>",
+  "version": "0.0.1",
+  "main": "src/index.js",
+  "dependencies": {
+    "yeoman-generator": "^5",
+    "yeoman-environment": "^3"
+  },
+  "devDependencies": {
+      "jest": "^27"
+  },
+  "scripts": {
+      "test": "jest ./test"
+  }
+}
