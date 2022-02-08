@@ -21,6 +21,7 @@ module.exports = {
     '!generator/templates/**/*.js'
   ],
   testPathIgnorePatterns: [
+    'generator/templates/test'
   ],
   coverageThreshold: {
     global: {

@@ -26,6 +26,7 @@ describe('run', () => {
 
     const ret = await helpers.run(theGeneratorPath)
       .withOptions(options)
+
     expect(ret).toBeDefined()
   })
 })

@@ -65,7 +65,6 @@ class TemplateGenerator extends Generator {
       this.destinationPath(path.join(destFolder, 'src', 'templates', '_dot.gitignore')),
       this.props
     )
-
   }
 }
 
