@@ -51,7 +51,7 @@
   "repository": "adobe/create-aio-app-template",
   "scripts": {
     "lint": "eslint src test generator",
-    "unit-tests": "jest -c jest.config.js",
+    "unit-tests": "jest -c jest.config.js --runInBand",
     "test": "npm run unit-tests && npm run lint"
   }
 }
