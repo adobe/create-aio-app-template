@@ -20,13 +20,13 @@ describe('prototype', () => {
   })
 })
 
-// describe('run', () => {
-//   test('test generator', async () => {
-//     // const options = { 'template-name': 'my-template' }
+describe('run', () => {
+  test('test generator', async () => {
+    const options = { 'template-name': 'my-template' }
 
-//     const ret = await helpers.run(theGeneratorPath)
-//     // .withOptions(options)
+    const ret = await helpers.run(theGeneratorPath)
+      .withOptions(options)
 
-//     expect(ret).toBeDefined()
-//   })
-// })
+    expect(ret).toBeDefined()
+  })
+})
