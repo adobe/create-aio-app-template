@@ -38,13 +38,11 @@
     "node": ">=14.0.0"
   },
   "files": [
-    "/bin",
-    "/src"
+    "bin",
+    "generator",
+    "src"
   ],
   "homepage": "https://github.com/adobe/create-aio-app-template",
-  "keywords": [
-    "oclif"
-  ],
   "license": "Apache-2.0",
   "main": "src/index.js",
   "oclif": {
