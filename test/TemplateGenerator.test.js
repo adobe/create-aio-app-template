@@ -23,10 +23,8 @@ describe('prototype', () => {
 describe('run', () => {
   test('test generator', async () => {
     const options = { 'template-name': 'my-template' }
-    console.log('theGeneratorPath', theGeneratorPath)
-    expect(1).toEqual(1)
 
-    // const ret = await helpers.run(theGeneratorPath)
-    // expect(ret).toBeDefined()
+    const ret = await helpers.run(theGeneratorPath)
+    expect(ret).toBeDefined()
   })
 })
