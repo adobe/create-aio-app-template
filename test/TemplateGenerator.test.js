@@ -11,7 +11,7 @@ governing permissions and limitations under the License.
 
 const helpers = require('yeoman-test')
 
-const theGeneratorPath = require.resolve('../generator/TemplateGenerator')
+const theGeneratorPath = require.resolve('../generator/TemplateGenerator.js')
 const Generator = require('yeoman-generator')
 
 describe('prototype', () => {
