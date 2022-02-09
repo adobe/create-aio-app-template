@@ -25,6 +25,8 @@ describe('run', () => {
     const options = { 'template-name': 'my-template' }
 
     const ret = await helpers.run(theGeneratorPath)
+      .withOptions(options)
+
     expect(ret).toBeDefined()
   })
 })
