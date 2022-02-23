@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "main": "src/index.js",
   "keywords": [
-    "ecosystem:aio-app-template"
+    "ecosystem:aio-app-builder-templates"
   ],
   "dependencies": {
     "yeoman-generator": "^5",
