@@ -38,15 +38,9 @@ Make sure you have `npm` version `6.1.0` or greater:
 
 Then run:
 ```bash
-npm init @adobe/aio-app-template <template_name>
+npm create @adobe/aio-app-template <template_name>
 ```
 where `<template_name>` is the name of your template (this will create the folder in the current working directory by default)
-
-# Usage (cli)
-
-```bash
-npx @adobe/create-aio-app-template <template_name>
-```
 
 # Command
 <pre>
