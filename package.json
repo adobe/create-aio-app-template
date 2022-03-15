@@ -31,7 +31,7 @@
     "stdout-stderr": "^0.1.13",
     "typescript": "^4.5.5",
     "yeoman-assert": "^3.1.1",
-    "yeoman-test": "^6.2.0",
+    "yeoman-test": "6.2.0",
     "jest": "^27"
   },
   "engines": {
@@ -51,7 +51,7 @@
   "repository": "adobe/create-aio-app-template",
   "scripts": {
     "lint": "eslint src test generator",
-    "unit-tests": "jest -c jest.config.js",
+    "unit-tests": "jest -c jest.config.js --runInBand",
     "test": "npm run unit-tests && npm run lint"
   }
 }
