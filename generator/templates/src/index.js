@@ -34,23 +34,23 @@ class TheGenerator extends Generator {
     const destFolder = this.props.destFolder
     this.sourceRoot(path.join(__dirname, './templates/'))
 
-    // all files in the templates sub-folder will be copied to destFolder, except files with underscore
-    this.fs.copyTpl(
-      this.templatePath('**/*'),
-      this.destinationPath(destFolder),
-      this.props,
-      {},
-      { globOptions: { ignore: ['**/_*.*'] } }
-    )
+    // // all files in the templates sub-folder will be copied to destFolder, except files with underscore
+    // this.fs.copyTpl(
+    //   this.templatePath('**/*'),
+    //   this.destinationPath(destFolder),
+    //   this.props,
+    //   {},
+    //   { globOptions: { ignore: ['**/_*.*'] } }
+    // )
 
-    // this is an example of how to copy a dotfile, we prefix it with _dot. and copy after
-    // npm pack will not include .gitignore template files so we need to rename it
-    // see https://github.com/npm/npm/issues/3763
-    this.fs.copyTpl(
-      this.templatePath('_dot.gitignore'),
-      this.destinationPath(path.join(destFolder, '.gitignore')),
-      this.props
-    )
+    // // this is an example of how to copy a dotfile, we prefix it with _dot. and copy after
+    // // npm pack will not include .gitignore template files so we need to rename it
+    // // see https://github.com/npm/npm/issues/3763
+    // this.fs.copyTpl(
+    //   this.templatePath('_dot.gitignore'),
+    //   this.destinationPath(path.join(destFolder, '.gitignore')),
+    //   this.props
+    // )
   }
 }
 
