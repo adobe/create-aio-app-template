@@ -23,3 +23,6 @@ coverage
 
 # yeoman
 .yo-repository
+
+# this template's e2e test directory
+temp-template-test
