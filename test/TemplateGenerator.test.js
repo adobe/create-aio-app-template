@@ -11,12 +11,12 @@ governing permissions and limitations under the License.
 
 const helpers = require('yeoman-test')
 
-const theGeneratorPath = require.resolve('../generator/TemplateGenerator')
-const Generator = require('yeoman-generator')
+const theGenerator = require('../generator/TemplateGenerator')
+const YeomanGenerator = require('yeoman-generator')
 
 describe('prototype', () => {
   test('exports a yeoman generator', () => {
-    expect(require(theGeneratorPath).prototype).toBeInstanceOf(Generator)
+    expect(theGenerator.prototype).toBeInstanceOf(YeomanGenerator)
   })
 })
 
@@ -24,7 +24,7 @@ describe('run', () => {
   test('test generator', async () => {
     const options = { 'template-name': 'my-template' }
 
-    const ret = await helpers.run(theGeneratorPath)
+    const ret = await helpers.run(theGenerator)
       .withOptions(options)
 
     expect(ret).toBeDefined()
