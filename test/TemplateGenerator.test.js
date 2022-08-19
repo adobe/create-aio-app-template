@@ -9,7 +9,7 @@ OF ANY KIND, either express or implied. See the License for the specific languag
 governing permissions and limitations under the License.
 */
 
-// const helpers = require('yeoman-test')
+const helpers = require('yeoman-test')
 
 const theGeneratorPath = require.resolve('../generator/TemplateGenerator')
 const Generator = require('yeoman-generator')
@@ -20,13 +20,13 @@ describe('prototype', () => {
   })
 })
 
-// describe('run', () => {
-//   test('test generator', async () => {
-//     const options = { 'template-name': 'my-template' }
+describe('run', () => {
+  test('test generator', async () => {
+    const options = { 'template-name': 'my-template' }
 
-//     const ret = await helpers.run(theGeneratorPath)
-//       .withOptions(options)
+    const ret = await helpers.run(theGeneratorPath)
+      .withOptions(options)
 
-//     expect(ret).toBeDefined()
-//   })
-// })
+    expect(ret).toBeDefined()
+  })
+})
