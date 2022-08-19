@@ -12,9 +12,12 @@
   "devDependencies": {
       "jest": "^27",
       "stdout-stderr": "^0.1.13",
-      "yeoman-test": "^6.3.0"  
+      "yeoman-test": "^6.3.0",
+      "yeoman-environment": "^3",
+      "fs-extra": "^10"
   },
   "scripts": {
-      "test": "jest ./test"
+      "test": "jest ./test",
+      "e2e": "node test/e2e.js"
   }
 }
