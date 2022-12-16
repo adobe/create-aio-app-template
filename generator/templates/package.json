@@ -18,7 +18,7 @@
       "@adobe/aio-lib-template-validation": "^4.0.0"
   },
   "scripts": {
-    "validate": "npx tv run-checks .",
+    "validate": "tv run-checks .",
     "test": "npm run unit-tests && npm run validate",
     "unit-tests": "jest ./test",
     "e2e": "node test/e2e.js"
