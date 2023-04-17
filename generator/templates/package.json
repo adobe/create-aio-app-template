@@ -1,5 +1,6 @@
 {
   "name": "<%=projectName%>",
+  "description": "Add your template's description here",
   "version": "0.0.1",
   "main": "src/index.js",
   "keywords": [
@@ -12,9 +13,14 @@
   "devDependencies": {
       "jest": "^27",
       "stdout-stderr": "^0.1.13",
-      "yeoman-test": "^6.3.0"  
+      "yeoman-test": "^6.3.0",
+      "fs-extra": "^10",
+      "@adobe/aio-lib-template-validation": "^4.0.0"
   },
   "scripts": {
-      "test": "jest ./test"
+    "validate": "tv run-checks .",
+    "test": "npm run unit-tests && npm run validate",
+    "unit-tests": "jest ./test",
+    "e2e": "node test/e2e.js"
   }
 }
