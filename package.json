@@ -10,7 +10,7 @@
   "dependencies": {
     "@oclif/command": "^1.6.1",
     "@oclif/config": "^1.15.1",
-    "@oclif/plugin-help": "^2.2.3",
+    "@oclif/plugin-help": "^5.2.10",
     "debug": "^4.2.0",
     "fs-extra": "^9.0.0",
     "yeoman-generator": "^5.6.1",
