@@ -12,7 +12,7 @@
     "@oclif/config": "^1.15.1",
     "@oclif/plugin-help": "^2.2.3",
     "debug": "^4.2.0",
-    "fs-extra": "^9.0.0",
+    "fs-extra": "^11.1.1",
     "yeoman-generator": "^5.6.1",
     "yeoman-environment": "^3.9.1"
   },
