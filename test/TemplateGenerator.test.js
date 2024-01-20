@@ -21,7 +21,7 @@ describe('prototype', () => {
 })
 
 describe('run', () => {
-  test('test generator', async () => {
+  test('generator', async () => {
     const options = { 'template-name': 'my-template' }
 
     const ret = await helpers.run(theGenerator)
