@@ -1,7 +1,7 @@
 {
   "name": "@adobe/create-aio-app-template",
   "description": "Create an Adobe Developer App Builder template",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Adobe Inc.",
   "bin": {
     "create-aio-app-template": "./bin/run"
