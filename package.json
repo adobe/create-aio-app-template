@@ -20,7 +20,7 @@
     "@adobe/eslint-config-aio-lib-config": "^2.0.2",
     "@oclif/dev-cli": "^1.22.2",
     "eslint": "^8.56.0",
-    "eslint-config-oclif": "^4.0.0",
+    "eslint-config-oclif": "^5.0.3",
     "eslint-config-standard": "^17.1.0",
     "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-jest": "^27.6.3",
