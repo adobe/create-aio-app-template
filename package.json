@@ -51,5 +51,8 @@
     "lint": "eslint src test generator",
     "unit-tests": "jest -c jest.config.js",
     "test": "npm run unit-tests && npm run lint"
+  },
+  "engines": {
+    "node": ">=20"
   }
 }
